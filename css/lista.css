@@ -1,0 +1,13 @@
+.lista {
+    margin: 10px 0;
+}
+
+.listaTitulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+
+.listaHr {
+    opacity: 0.3;
+}
