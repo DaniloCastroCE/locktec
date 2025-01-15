@@ -2,8 +2,9 @@ class Condominio {
     constructor () {
         this.arrayCond = [
 
+
 //      CONDOMÍNIOS DE FORTALEZA   
-        
+
         { nome: "LOCKTEC", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "FORTALEZA", lat: "-3.73030", lon: "-38.48041",
             end: { rua: 'Oliveira Viana', num: '77', bairro: "Vicente Pinzon", cidade: "Fortaleza", sigla: "CE" } },
 
@@ -514,7 +515,7 @@ class Condominio {
 
 //      CONDOMÍNIOS DE FORA  
 
-        { nome: "ALAMEDA DOS PINHEIROS VI ", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.18753444261896", lon: "-35.57894758910184",
+        { nome: "ALAMEDA DOS PINHEIROS VI ", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.18753444261896", lon: "-35.57894758910184",
             end: { rua: 'Avenida Manoel Santiago de Oliveira', num: '1200', bairro: "Novo Gravatá", cidade: "Gravatá", sigla: "PE" } },
 
         { nome: "ALTO INGÁ", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.903220786176817", lon: "-43.124843368345154",
@@ -523,13 +524,13 @@ class Condominio {
         { nome: "AROEIRA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.58732", lon: "-46.63271",
             end: { rua: 'Doutor Neto de Araujo', num: '238', bairro: "Vila Mariana", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "ARMANDO RABELO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.045249995904557", lon: "-34.89253349327602",
+        { nome: "ARMANDO RABELO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.045249995904557", lon: "-34.89253349327602",
             end: { rua: 'Rui Calaca', num: '94', bairro: "Espinheiro", cidade: "Recife", sigla: "PE" } },
 
         { nome: "AMALFI", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.53027251500084", lon: "-46.71885593828757",
             end: { rua: 'Princesa Leopoldina', num: '595', bairro: "Alto da Lapa", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "BARÃO DA FONTE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.041726170110506", lon: "-34.89484662076417",
+        { nome: "BARÃO DA FONTE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.041726170110506", lon: "-34.89484662076417",
             end: { rua: 'Rua da Angustura', num: '328', bairro: "Aflitos", cidade: "Recife", sigla: "PE" } },
 
         { nome: "BARÃO DE MAUÁ", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.897848427148332", lon: "-43.28990579602265",
@@ -541,19 +542,19 @@ class Condominio {
         { nome: "BARRA ZEN", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-23.00534", lon: "-43.44252",
             end: { rua: 'Doze', num: '50', bairro: "Recreio dos Bandeirantes", cidade: "Rio de Janeiro", sigla: "RJ" } },
 
-        { nome: "BEACH WAY", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.723446735046902", lon: "-35.092617766030266",
+        { nome: "BEACH WAY", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.723446735046902", lon: "-35.092617766030266",
             end: { rua: 'Euclides da Cunha', num: 'S/N', bairro: "LOT Luiziana QD-J", cidade: "Tamandaré", sigla: "PE" } },
 
         { nome: "CHAMPS ELYSEES", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.92801", lon: "-43.23161",
             end: { rua: 'Barão de Pirassinunga', num: '33', bairro: "Tijuca", cidade: "Rio de Janeiro", sigla: "RJ" } },
 
-        { nome: "CIDADE DE MONACO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.02963", lon: "-34.91601",
+        { nome: "CIDADE DE MONACO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.02963", lon: "-34.91601",
             end: { rua: 'Conselheiro Nabuco', num: '246', bairro: "Casa Amarela", cidade: "Recife", sigla: "PE" } },
 
         { nome: "CASA DOS FLAMBOYANTS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.92772", lon: "-43.22772",
             end: { rua: 'Rua dos Araujos', num: '105', bairro: "Tijuca", cidade: "Rio de Janeiro", sigla: "RJ" } },
 
-        { nome: "CIUDAD SEVILHA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.02851", lon: "-34.90865",
+        { nome: "CIUDAD SEVILHA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.02851", lon: "-34.90865",
             end: { rua: 'Abel de Sá Bezerra Cavalcanti', num: '74', bairro: "Casa Amarela", cidade: "Recife", sigla: "PE" } },
 
         { nome: "COSTA AZUL", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.63247", lon: "-46.63978",
@@ -562,13 +563,13 @@ class Condominio {
         { nome: "DISEGNO CASAS BOUTIQUE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-23.01034", lon: "-43.42471",
             end: { rua: 'Ministro Lafayette Andrada', num: '710', bairro: "Barra da Tijuca", cidade: "Rio de Janeiro", sigla: "RJ" } },
 
-        { nome: "DORMAR", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.063112495524258", lon: "-34.877885109719784",
+        { nome: "DORMAR", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.063112495524258", lon: "-34.877885109719784",
             end: { rua: 'Engenheiro Ubaldo Gomes de Matos', num: '53', bairro: "Santo Antônio", cidade: "Recife", sigla: "PE" } },
 
         { nome: "CONDE DO PARQUE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.961237094918186", lon: "-43.21813321756943",
             end: { rua: 'Benjamin Batista', num: '197', bairro: "Jardim Botânico", cidade: "Rio de Janeiro", sigla: "RJ" } },
 
-        { nome: "DANIELLE MORAIS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.197871443252662", lon: "-34.918916372750864",
+        { nome: "DANIELLE MORAIS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.197871443252662", lon: "-34.918916372750864",
             end: { rua: 'Oscar Pereira', num: '37', bairro: "Candeias", cidade: "João dos Guararapes", sigla: "PE" } },
 
         { nome: "DOMÍNIO LOCKTEC", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.61039", lon: "-46.63921",
@@ -583,31 +584,31 @@ class Condominio {
         { nome: "EDEN", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.6353", lon: "-46.6433",
             end: { rua: 'Carnaubeiras', num: '122', bairro: "Jabaquara", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "FAROL DO PORTO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.14013", lon: "-34.90992",
+        { nome: "FAROL DO PORTO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.14013", lon: "-34.90992",
             end: { rua: 'Almirante Batista Leão', num: '76', bairro: "Boa Viagem", cidade: "Recife", sigla: "PE" } },
 
         { nome: "GEOMAR", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.97325", lon: "-43.19111",
             end: { rua: 'Barata Ribeiro', num: '662', bairro: "Copacabana", cidade: "Rio de Janeiro", sigla: "RJ" } },
 
-        { nome: "GAN EDEN", ativo: true, tipo: "não definido", dvr: ["não definido"], lat: "-22.927222927102637", lon: "-43.25391929854457",
-            end: { rua: 'Paula Brito', num: '350', bairro: "Andarí", cidade: "RJ", sigla: "Rio de Janeiro" } },
+        { nome: "GAN EDEN", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.927222927102637", lon: "-43.25391929854457",
+            end: { rua: 'Paula Brito', num: '350', bairro: "Andarí", cidade: "RJ", sigla: "RJ" } },
 
         { nome: "GUARATUBA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.63353", lon: "-46.64242",
             end: { rua: 'Guaratuba', num: '280', bairro: "Vila Guarani (Zona Sul)", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "GUADALUPE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.190494625116312", lon: "-34.921070668892376",
+        { nome: "GUADALUPE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.190494625116312", lon: "-34.921070668892376",
             end: { rua: 'Comendador Sá Barreto', num: '365', bairro: "Candeias", cidade: "Jaboatão dos Guararapes", sigla: "PE" } },
 
         { nome: "FREGUESIA TOWER", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.9441", lon: "-43.33552",
             end: { rua: 'Comandante Rúbens Silva', num: '1000', bairro: "Freguesia (Jacarepaguá)", cidade: "Rio de Janeiro", sigla: "RJ" } },
 
-        { nome: "GUARARAPES", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.08301579975463", lon: "-34.98821389363005",
+        { nome: "GUARARAPES", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.08301579975463", lon: "-34.98821389363005",
             end: { rua: 'Mostarda', num: '3133', bairro: "Curado", cidade: "Jaboatão dos Guararapes", sigla: "PE" } },
 
         { nome: "HIGH POINT", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.62725", lon: "-46.72401",
             end: { rua: 'Deputado Laércio Corte', num: '753', bairro: "Parque do Morumbi", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "IEMANJA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.055557209465272", lon: "-34.877549683914616",
+        { nome: "IEMANJA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.055557209465272", lon: "-34.877549683914616",
             end: { rua: 'Rua da Aurora', num: '1019', bairro: "Santo Amaro", cidade: "Recife", sigla: "PE" } },
 
         { nome: "ILHA DE CAPRI", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.64932", lon: "-46.6349",
@@ -616,13 +617,13 @@ class Condominio {
         { nome: "ILHA DE KÓS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.93524", lon: "-43.24336",
             end: { rua: 'Conde de Bonfim', num: '807', bairro: "Tijuca", cidade: "Rio de Janeiro", sigla: "RJ" } },
 
-        { nome: "INOCÊNCIO RODRIGUES", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.0294", lon: "-34.90831",
+        { nome: "INOCÊNCIO RODRIGUES", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.0294", lon: "-34.90831",
             end: { rua: 'Estrada do Arraial', num: '2885', bairro: "Parnamirim", cidade: "Recife", sigla: "PE" } },
 
         { nome: "LOGOS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.57252", lon: "-46.62561",
             end: { rua: 'Rua Paulo Orozimbo', num: '584', bairro: "Cambicu", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "ITAPUAMA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-7.99757", lon: "-34.8401",
+        { nome: "ITAPUAMA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-7.99757", lon: "-34.8401",
             end: { rua: 'Francisco Ambrósio de Barros Leite', num: '152', bairro: "Bairro Novo", cidade: "Olinda", sigla: "PE" } },
 
         { nome: "KENSINGTON", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.56363153233728", lon: "-46.68095229528178",
@@ -637,10 +638,10 @@ class Condominio {
         { nome: "MADONNA DELLE GRAZIE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.889561050705048", lon: "-42.99929046075525",
             end: { rua: 'Estrada da Paciênia', num: '8069', bairro: "Maria Paula", cidade: "São Gonçalo", sigla: "RJ" } },
 
-        { nome: "MAKAMBIRA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.503826448968212", lon: "-35.00412068058992",
+        { nome: "MAKAMBIRA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.503826448968212", lon: "-35.00412068058992",
             end: { rua: 'Avenida para Praia', num: 'S/N', bairro: "LOT Merepe - V", cidade: "Ipojuca", sigla: "PE" } },
 
-        { nome: "MANOEL VILAÇA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.04207", lon: "-34.94496",
+        { nome: "MANOEL VILAÇA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.04207", lon: "-34.94496",
             end: { rua: 'Odon Rodrigues de Morais Rego', num: '78', bairro: "Vázea", cidade: "Recife", sigla: "PE" } },
 
         { nome: "MAQUINÉ", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.9325", lon: "-43.24492",
@@ -649,19 +650,19 @@ class Condominio {
         { nome: "MILENIUM", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.93828", lon: "-43.33697",
             end: { rua: 'Comandante Rúbens Silva', num: '323', bairro: "Freguesia (Jacarepaguá)", cidade: "Rio de Janeiro", sigla: "RJ" } },
 
-        { nome: "MONACO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.13461233383057", lon: "-34.90453341051165",
+        { nome: "MONACO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.13461233383057", lon: "-34.90453341051165",
             end: { rua: 'Antônio Passos', num: '51', bairro: "Boa Viagem", cidade: "Recife", sigla: "PE" } },
 
-        { nome: "MORADA DA FONTE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.041835098195657", lon: "-34.89702006753713",
+        { nome: "MORADA DA FONTE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.041835098195657", lon: "-34.89702006753713",
             end: { rua: 'Rua da Angustura', num: '104', bairro: "Aflitos", cidade: "Recife", sigla: "PE" } },
 
-        { nome: "NIXXUS I", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.50170411915443", lon: "-35.00402127568369",
+        { nome: "NIXXUS I", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.50170411915443", lon: "-35.00402127568369",
             end: { rua: 'Cajueiro', num: '512', bairro: "Porto de Galinhas", cidade: "Ipojuca", sigla: "PE" } },
 
         { nome: "OJC", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.56727", lon: "-46.64321",
             end: { rua: 'Martiniano de Carvalho', num: '960', bairro: "Bela Vista", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "OSVALDO CORDEIRO DE FARIA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.08365", lon: "-34.93909",
+        { nome: "OSVALDO CORDEIRO DE FARIA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.08365", lon: "-34.93909",
             end: { rua: 'Avenida São Paulo', num: '305', bairro: "Jardim São Paulo", cidade: "Recife", sigla: "PE" } },
 
         { nome: "MARSELLE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.94215", lon: "-43.19284",
@@ -670,19 +671,19 @@ class Condominio {
         { nome: "PAÇO DE SORRENTO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.57246", lon: "-46.63377",
             end: { rua: 'Castro Alves', num: '908', bairro: "Aclimação", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "PIERRE RAMOS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-7.996434889187311", lon: "-34.84111461580718",
+        { nome: "PIERRE RAMOS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-7.996434889187311", lon: "-34.84111461580718",
             end: { rua: 'Doutor Manoel de Almeida Belo', num: '1241', bairro: "Bairro Novo", cidade: "Olinda", sigla: "PE" } },
 
         { nome: "POLLUX I", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.508661153819066", lon: "-46.66528890641049",
             end: { rua: 'Praça Delegado Amoroso Neto', num: '120', bairro: "Casa Verde", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "PRAÇA DAS AVENÇAS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.05209", lon: "-34.94108",
+        { nome: "PRAÇA DAS AVENÇAS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.05209", lon: "-34.94108",
             end: { rua: 'Antônio Curado', num: '307', bairro: "Engenho do Meio", cidade: "Recife", sigla: "PE" } },
 
-        { nome: "PRAÇA DOS FICUS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.05492", lon: "-34.91379",
+        { nome: "PRAÇA DOS FICUS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.05492", lon: "-34.91379",
             end: { rua: 'Avenida Caxangá', num: '521', bairro: "Madalena", cidade: "Recife", sigla: "PE" } },
 
-        { nome: "PRAÇA DAS FIGUEIRAS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.05131", lon: "-34.90766",
+        { nome: "PRAÇA DAS FIGUEIRAS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.05131", lon: "-34.90766",
             end: { rua: 'Pessoa de Melo', num: '227', bairro: "Madalena", cidade: "Recife", sigla: "PE" } },
 
         { nome: "REGINA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.91446", lon: "-43.23152",
@@ -709,7 +710,7 @@ class Condominio {
         { nome: "SÃO DOMINGOS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.90049", lon: "-43.12792",
             end: { rua: 'General Andrade Neves', num: '317', bairro: "São Domingos", cidade: "Niterói", sigla: "RJ" } },
 
-        { nome: "SÃO CAETANO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.11306", lon: "-35.29239",
+        { nome: "SÃO CAETANO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.11306", lon: "-35.29239",
             end: { rua: 'Cândido Cardoso Fontes', num: '87', bairro: "Matriz", cidade: "Vitória de Santo Antão", sigla: "PE" } },
 
         { nome: "SPLENDOR TABOÃO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.604236269402016", lon: "-46.759424618813",
@@ -718,7 +719,7 @@ class Condominio {
         { nome: "SÃO JUDAS PARK", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.624544254102528", lon: "-46.641301323955034",
             end: { rua: 'Ararapira', num: '320', bairro: "Planalto Paulista", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "STUDIO ONE CLASSIC", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.142475046201215", lon: "-34.908456810646",
+        { nome: "STUDIO ONE CLASSIC", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.142475046201215", lon: "-34.908456810646",
             end: { rua: 'Sá e Souza', num: '1205', bairro: "Boa Viagem", cidade: "Recife", sigla: "PE" } },
 
         { nome: "SIBIPIRUNAS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.94333", lon: "-43.03432",
@@ -727,13 +728,13 @@ class Condominio {
         { nome: "SUNNY SIDE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.45894350440232", lon: "-43.15664489207349",
             end: { rua: 'Estrada do Carangola', num: '1953', bairro: "Carangola", cidade: "Petrópolis", sigla: "RJ" } },
 
-        { nome: "SÓRIA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.13138", lon: "-34.90224",
+        { nome: "SÓRIA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.13138", lon: "-34.90224",
             end: { rua: 'Avenida Engenheiro Domingos Ferreira', num: '5027', bairro: "Boa Viagem", cidade: "Recife", sigla: "PE" } },
 
-        { nome: "TIMONEIRO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.13692", lon: "-34.90273",
+        { nome: "TIMONEIRO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.13692", lon: "-34.90273",
             end: { rua: 'Setúbal', num: '682', bairro: "Boa Viagem", cidade: "Recife", sigla: "PE" } },
 
-        { nome: "TAIO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.05743", lon: "-34.93016",
+        { nome: "TAIO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.05743", lon: "-34.93016",
             end: { rua: 'Taió', num: '201', bairro: "Cordeiro", cidade: "Recife", sigla: "PE" } },
 
         { nome: "TOUR DEL PANE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.907605098107435", lon: "-43.13092025666666",
@@ -754,13 +755,13 @@ class Condominio {
         { nome: "VIAREGGIO", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "SÃO PAULO", lat: "-23.6288", lon: "-46.63533",
             end: { rua: 'Rua dos Democratas', num: '721', bairro: "Vila Monte Alegre", cidade: "São Paulo", sigla: "SP" } },
 
-        { nome: "VILA DO CONDE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.086331483974359", lon: "-34.95706926176628",
+        { nome: "VILA DO CONDE", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.086331483974359", lon: "-34.95706926176628",
             end: { rua: 'João Ferreira', num: '70', bairro: "Sancho", cidade: "Recife", sigla: "PE" } },
 
         { nome: "VILLAGE DAS PEDRAS", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.931384128789055", lon: "-42.89823197332009",
             end: { rua: 'Doutor Creso Ribeiro', num: 'S/N', bairro: "São José do Imbassaí", cidade: "Maricá", sigla: "RJ" } },
 
-        { nome: "VIRGINIA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "PERNAMBUCO", lat: "-8.12017", lon: "-34.89838",
+        { nome: "VIRGINIA", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RECIFE", lat: "-8.12017", lon: "-34.89838",
             end: { rua: 'Avenida Engenheiro Domingos Ferreira', num: '3652', bairro: "Boa Viagem", cidade: "Recife", sigla: "PE" } },
 
         { nome: "VIVENDAS DO MARACANÃ", ativo: true, tipo: "não definido", dvr: ["não definido"], locktec: "RIO DE JANEIRO", lat: "-22.91485", lon: "-43.23143",
@@ -779,6 +780,37 @@ class Condominio {
     }
     getCondLength(){
         return this.arrayCond.length
+    }
+
+    getCountCond () {
+        const count = {
+            ce : 0,
+            pe: 0,
+            rj : 0,
+            sp: 0,
+            tt: 0,
+        }
+
+        this.arrayCond.forEach(el => {
+            if(el.locktec === 'FORTALEZA' && el.ativo) {
+                count.ce++
+                count.tt++
+
+            }else if(el.locktec === 'RECIFE' && el.ativo) {
+                count.pe++
+                count.tt++
+            }
+            else if(el.locktec === 'SÃO PAULO' && el.ativo) {
+                count.sp++
+                count.tt++
+
+            } else if(el.locktec === 'RIO DE JANEIRO' && el.ativo) {
+                count.rj++
+                count.tt++
+            }
+        })
+
+        return count
     }
 
     transformarArray (id) {
@@ -814,7 +846,7 @@ class Condominio {
             }else if (el.end.sigla === "RJ" && !el.locktec) {
                 cod += 'locktec: "RIO DE JANEIRO", '
             }else if (el.end.sigla === "PE" && !el.locktec) {
-                cod += 'locktec: "PERNAMBUCO", '
+                cod += 'locktec: "RECIFE", '
             }
 
             box.innerHTML += `{ nome: "${el.nome}", ${cod}  lat: "${el.lat}", lon: "${el.lon}", 

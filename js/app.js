@@ -50,6 +50,19 @@ const criarCards = (id) => {
 
 }
 
+const painelInfo = (id) => {
+    const count = cond.getCountCond()
+    const box = document.querySelector(`#${id}`)
+    box.innerHTML = ''
+    box.innerHTML = `
+        <p>Fortaleza: ${count.ce}, Recife: ${count.pe}, São Paulo: ${count.sp}, Rio de Janeiro: ${count.rj}, Total: ${count.tt}</p>
+    `
+}
+
 criarCards('listaCond')
+painelInfo('painel-info')
+//cond.transformarArray('conds')
+//console.log(cond.getCondLength())
+//console.log(cond.getCountCond())
 
 
